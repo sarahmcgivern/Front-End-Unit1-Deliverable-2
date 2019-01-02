@@ -1,0 +1,189 @@
+/* Background */
+html {
+  background-color: #F0ECEE; 
+} 
+  
+/* Flexbox */
+.flex-container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the body */
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 4%;
+}
+  
+/* Header/logo Title */
+.header {
+    background-color: none;
+    color: black;
+    padding: 10px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.custom {
+    color: #FF4850;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    color: #88898B;
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    text-align: left; 
+    font-weight: 300;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    display: block;
+    color: #88898B;  
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    color: #FF4850;
+}
+  
+/* Style the contact button */
+.contactButton {
+    background-color: #FF4850;
+    color: white;
+    padding: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* Style the contact button links */
+.contactButton a {
+    display: block;
+    color: white;  
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.contactButton a:hover {
+    background-color: #FF4850;
+    color: #CCC;
+}
+
+/* Style the main content */
+.main h1 {
+    background-color: none;
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.main p {
+    color: #88898B;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 18px;
+    width: 100%;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+/* Style the info button */
+.infoButton {
+    background-color: #FF4850;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    width: 100%; 
+}
+
+/* Style the info button links */
+.infoButton a {
+    display: block;
+    color: white;  
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.infoButton a:hover {
+    background-color: #FF4850;
+    color: #CCC;
+}
+
+
+/* Responsive layout */
+@media (min-width: 768px) {
+html {
+    background-image: url("../images/bulldog.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.contactButton {
+ width: auto;
+ height: 20px;
+}
+
+.infoButton {
+    width: 180px;
+    height: 20px;
+}
+
+.flex-container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 8px 8px ;
+  margin: 0;
+  text-align: right; 
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+
+
+}
